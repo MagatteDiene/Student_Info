@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+    background-size: cover;
+    background-image: url(./img/abstract-flowing-neon-wave-background.jpg);
+    
+  }
+
+  .header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px 100px;
+    width: 100%;
+    display: flex;
+    justify-content:stretch ;
+    z-index: 100;
+    align-items: center;
+    
+  }
+
+  .logo{
+        width: 10px;
+        height: 20px;
+        margin-right: 200px;
+    }
+
+ .logo img{
+        width: 270px;
+        height: 220px;
+        position: relative;
+        bottom: 100px;
+        right: 140px;
+        
+    }
+
+    .navbar a{
+        left: 180px;
+        position: relative;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 20px;
+        color: #fff;
+        font-family: 'Lumanosimo', cursive;
+    }
+
+    .navbar a::before{
+        content: '';
+        top: 100%;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        background-color: #e25a8a;
+        position: absolute;
+    }
+
+    .navbar a:hover:before{
+        width: 100%;
+        transition: .3s;
+        
+    }
+
+    .navbar a i{
+        color: #e25a8a;
+    }
+    .navbar a i:hover{
+        background-color: #e25a8a;
+        color: #fff;
+      border-radius: 5px;
+      transition: .5s;
+      transform: scale(1.2);
+        
+    }
+
+    .Home {
+        width: 45%;
+        height:min-content;
+        position: relative;
+        top: 180px;
+        left: 410px;
+        
+
+    }
+    .Home p{
+        font-size:small;
+        position: relative;
+        left: 50px;
+        top: 10px;
+        font-family: 'Lumanosimo', cursive;
+        
+    }
+    .homeimg{
+       
+        width: 32%;
+        height: 10px;
+        position: relative;
+        right: 40px;
+        bottom: 120px;
+        
+        
+        
+    }
+    .homeimg img{
+        position: relative;
+        top: 35px;
+        border-radius: 50px;
+       
+        
+    }
+
+    .logo2 {
+        position: relative;
+        left: 60px;     
+    }
+
+    .btn{
+        
+        position: relative;
+        left: 720px;
+        top: 200px;
+        background-color: #e25a8a;
+        border-radius: 15px;
+        position: relative;
+        padding: 5px 10px;
+        font-weight: 600;
+        text-decoration: none;
+        box-shadow: 0 0 10px #e25a8a;
+        font-family: 'Lumanosimo', cursive;
+    }
+
+    .btn:hover{
+        background-color:#fff;
+        color: #e25a8a;
+        transition: .5s;
+        transform: scale(1.2);
+    }
+
+    
+
